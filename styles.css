@@ -33,3 +33,7 @@ video {
 	padding: 5px;
 	margin-top: 10px;
 }
+
+p {
+  color: gray;
+}
