@@ -1,0 +1,35 @@
+button {
+  background-color: #86b1db;
+  font-size: 16px;
+  padding: 12px 28px;
+  border-radius: 12px;
+  border: 2px solid gray;
+  color: white;
+  font-weight: bold;
+  font-family: "Courier New";
+}
+
+div {
+  background-color: #86b1db;    /* Light gray */
+  border: 2px solid gray;
+  border-radius: 12px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-family: "Courier New";
+}
+
+video {
+	display: block;
+	margin: auto;
+	width: 50%;
+	height: auto;
+	padding: 10px;
+}
+
+#buttons {
+	margin: auto;
+	background-color: #e0e0e0;
+	padding: 5px;
+	margin-top: 10px;
+}
