@@ -5,4 +5,4 @@ Building a simple "teachable machine" (https://teachablemachine.withgoogle.com),
 
 
 Temporary link to the app, hope it still works because of free hosting :) <br>
-https://imageclassifier01.000webhostapp.com (Open in Chrome) 
+https://imageclassifier02.000webhostapp.com/index.html (Open in Chrome) 
