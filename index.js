@@ -55,9 +55,19 @@ async function app() {
       const result = await classifier.predictClass(activation);
 
       const classes = ['A', 'B', 'C'];
+      
+      const classCounts = classifier.getClassExampleCount();
+      const aCount = classCounts[0];
+      const bCount = classCounts[1];
+      const cCount = classCounts[2];
+      
       document.getElementById('console').innerText = `
         prediction: ${classes[result.classIndex]}\n
         probability: ${result.confidences[result.classIndex]}
+        -----------------------------------
+        A Samples Count: ${aCount}
+        B Samples Count: ${bCount}
+        C Samples Count: ${cCount}
       `;
     }
 
